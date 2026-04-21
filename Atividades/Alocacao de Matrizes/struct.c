@@ -27,6 +27,7 @@ int main(){
     }
 
     for (int i = 0; i < n_alunos; i++){
+        system("cls");
         printf("Nome: %s || Idade: %d || Matricula: %d\n", classe[i].nome, classe[i].idade, classe[i].matricula);
     }
     
